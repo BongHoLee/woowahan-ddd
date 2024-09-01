@@ -66,7 +66,7 @@ public class CartLineItem extends DomainEntity<CartLineItem, CartLineItemId> {
         this.groups.addAll(groups);
     }
 
-    CartLineItem() {
+    protected CartLineItem() {
     }
 
     public void combine(CartLineItem other) {
